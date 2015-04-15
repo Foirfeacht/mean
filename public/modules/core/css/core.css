@@ -1,0 +1,338 @@
+.content {
+	margin-top: 50px;
+}
+.undecorated-link:hover {
+	text-decoration: none;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
+
+/* =============================
+   ========== GENERAL ==========
+   ============================= */
+
+body {
+	margin: 0;
+	height: 100%;
+	padding-top: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content {
+	width: 100%;
+	position: relative;
+	padding: 100px 100px;
+}
+
+
+
+/* =============================
+   =========== MENU ============
+   ============================= */
+
+.menu-button{
+	position: fixed;
+	top: 20px;
+	left: 40px;
+	z-index: 300;
+}
+
+.menu-button:hover {
+	cursor: pointer;
+}
+
+.menu-button i {
+	font-size: 2em;
+}
+
+.menu {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	/*display: none;*/
+	z-index: 1000;
+	/*background: #2c3e50;*/
+
+	background: #fff;
+	border: 1px thin rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	color: #2c3e50;
+	font-weight: 700;
+}
+
+.menu ul {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+}
+
+.menu ul li {
+	width: 100%;
+
+}
+
+.menu ul li a {
+	display: block;
+	padding: 20px 0;
+	font-size: 2em;
+	color: #2c3e50;
+	font-weight: 700;
+	width: 80%;
+	margin-left: 20%; 
+	text-align: left;
+	line-height: auto;
+}
+
+.menu ul li a i {
+	margin-right: 20px;
+}
+
+.menu ul li:hover {
+	background: #2c3e50;
+}
+
+.menu ul li:hover a {
+	color: #fff;
+}
+
+.profile-block .image-wrapper{
+	border: 1px soldi #fff;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	margin: 40px auto 10px;
+}
+
+.profile-block img {
+	width: 100%;
+	height: 100%;
+}
+
+.profile-block .profile-name {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+
+/* =============================
+   ============ MAP ============
+   ============================= */
+.map-container {
+	height: 1000px; 
+	height: 100vh;
+	width: 90%;
+	margin: 100px auto;
+	position: relative;
+}
+
+#map_canvas {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+map {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* =============================
+   ========== DIALOG ==========
+   ============================= */
+
+md-dialog {
+	width: 80%;
+}
+
+.datepickers input {
+	width: 80%;
+	margin: 0 auto;
+}
+
+md-dialog .buttons div {
+	width: 50%;
+}
+
+.buttons div button {
+	width: 200px;
+	display: block;
+	margin: 10px auto;
+}
+
+.modal-btn {
+	position: absolute;
+	z-index: 9999;
+	top: 50%;
+	left: 50%;
+}
+
+.form {
+	width: 80%;
+	margin: 20px auto;
+}
+
+md-input-container {
+	width: 100%;
+}
+
+md-select {
+	width: 90%;
+	margin-bottom: 30px;
+}
+
+md-select span {
+	width: 100%;
+}
+
+md-option {
+	width: 100%;
+}
+
+/******* bOotstrap dropdown *******/
+.visibility > div {
+	width: 50%;
+}
+
+.inviteDropdown,
+.inviteDropdown > div {
+	width: 100%;
+}
+
+.dropdown-toggle {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #333;
+}
+
+.dropdown-menu {
+	width: 100%;
+	border: none;
+	
+}
+
+.form input,
+.form select {
+	margin: 10px auto;
+	width: 100%;
+}
+
+/* =============================
+   ========== MEETING ==========
+   ============================= */
+
+.meeting-display {
+	width: 100%;
+	overflow: hidden;
+}
+
+
+ /********* SEARCH AND FILTERS ********/
+
+.search {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+.search md-icon {
+	position: relative;
+	top: 3px;
+	font-size: 1.3em;
+}
+
+.search input {
+	width: 90%;
+}
+
+.select-filters {
+	width: 100%;
+}
+
+.select-filter {
+	width: 50%;
+}
+
+
+.meeting {
+	width: 30%;
+	/*float: left;*/
+	margin: 30px 15px;
+	border: 1px thin rgba(0, 0, 0, 0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 20px;
+	min-height: 520px;
+}
+
+.meeting div {
+	padding: 4px 0;
+}
+
+.meeting-title {
+	font-weight: 700;
+}
+
+.meeting .userlist img {
+	border: 1px thin #fff;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+.meeting .delete-button,
+.join-button {
+	width: auto;
+	padding: 10px 15px;
+	display: block;
+	margin: 10px auto;
+}
+
+.delete-button {
+	min-width: 139px;
+}
+
+.create-button {
+	width: 200px;
+	margin: 45px auto 10px;
+}
+
+.create-button a {
+	color: #fff;
+}
+
+
+
+.datepicker-wrapper {
+	margin-top: 35px;
+}
+
+.input-group .form-control {
+	width: 100%;
+}
+
+.input-group-btn>.btn {
+	position: absolute;
+	top: 10px;
+}
+
+
+
